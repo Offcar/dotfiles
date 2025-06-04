@@ -26,8 +26,8 @@ exec nm-applet --indicator
 exec blueman-applet 
 exec lxpolkit
 
-exec swaybg -i $home/Imágenes/Wallpapers/red_1.jpg
-output * bg /home/offcar/Imágenes/Wallpapers/red_1.jpg fill
+exec swaybg -i $HOME/.config/sway/red_1.jpg
+output * bg $HOME/.config/sway/red_1.jpg fill
 
 bindsym XF86AudioMute exec pamixer -t
 bindsym XF86AudioMicMute exec pamixer --default-source -t
