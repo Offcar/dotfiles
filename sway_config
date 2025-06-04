@@ -20,7 +20,7 @@ set $right l
 set $term alacritty
 set $menu wofi --show drun -IiG
 
-exec home/offcar/.config/sway/autotiling
+exec $HOME/.config/sway/autotiling
 exec swaync
 exec nm-applet --indicator
 exec blueman-applet 
