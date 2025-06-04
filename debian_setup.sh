@@ -59,7 +59,7 @@ if prompt "= ¿Instalar SWAY? ="; then
 	curl https://raw.githubusercontent.com/Offcar/dotfiles/refs/heads/main/sway_config -o $HOME/.config/sway/config -s
 	curl https://raw.githubusercontent.com/Offcar/dotfiles/refs/heads/main/red_1.jpg -o $HOME/.config/sway/red_1.jpg -s
 
-	sleep 2; printf "\n - Creando carpeta para ./config/sway \n"; sleep 2;
+	sleep 2; printf "\n - Creando carpeta para ./config/waybar \n"; sleep 2;
 	mkdir $HOME/.config/waybar
 	printf "\n - Waybar: Descarga de github \n"; sleep 2
 	curl https://raw.githubusercontent.com/Offcar/dotfiles/refs/heads/main/waybar_config.jsonc -o $HOME/.config/waybar/config.jsonc -s
